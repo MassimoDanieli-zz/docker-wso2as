@@ -1,5 +1,5 @@
 #
-# WSO2 Enterprise Service Bus 4.8.1
+# WSO2 Application Server 5.2.1
 #
 FROM java:7
 MAINTAINER Massimo Danieli, massimo@massimodanieli.com
