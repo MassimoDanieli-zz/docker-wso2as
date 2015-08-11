@@ -8,7 +8,7 @@ It uses the [dockerfile/java](https://index.docker.io/u/dockerfile/java/) as its
 
 The dockerfile will:
 
-* Use `wget` to pull the Application Server ZIP from WS02 web site into the container `/opt` folder.
+* Use `wget` to pull the Application Server 5.2.1 zip file from WS02 web site into the container `/opt` folder.
 * Install `zip`.
 * Unzip the AS 5.2.1 zip file.
 * Remove the AS ZIP.
