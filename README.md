@@ -10,8 +10,8 @@ The dockerfile will:
 
 * Use `wget` to pull the Application Server 5.2.1 zip file from WS02 web site into the container `/opt` folder.
 * Install `zip`.
-* Unzip the AS 5.2.1 zip file.
-* Remove the AS ZIP.
+* Unzip the Application Server 5.2.1 zip file.
+* Remove the AS zip.
 * Expose the container port `9443`.
 * Set the AS  `wso2server.sh` start-up script as the container start-up command.
 
