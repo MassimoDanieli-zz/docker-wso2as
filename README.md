@@ -1,14 +1,16 @@
 docker-wso2as
 ===================
 
-Docker image to install and run WSO2 Application Server . It uses the [dockerfile/java](https://index.docker.io/u/dockerfile/java/) as its base image.
+Docker image to install and run WSO2 Application Server . 
+The WSO2 Application Server brings together best of breed open source technologies for Web Applications (i.e. Apache Tomcat), Web Services (i.e. Apache Axis2), RESTful services (i.e. JAX-RS) with WSO2’s open source management, monitoring, clustering, and logging extensions.
+It uses the [dockerfile/java](https://index.docker.io/u/dockerfile/java/) as its base image.
 
 
 The dockerfile will:
 
 * Use `wget` to pull the Application Server ZIP from WS02 web site into the container `/opt` folder.
 * Install `zip`.
-* Unzip the AS ZIP.
+* Unzip the AS 5.2.1 zip file.
 * Remove the AS ZIP.
 * Expose the container port `9443`.
 * Set the AS  `wso2server.sh` start-up script as the container start-up command.
