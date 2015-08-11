@@ -13,7 +13,7 @@ The dockerfile will:
 * Unzip the Application Server 5.2.1 zip file.
 * Remove the AS zip.
 * Expose the container port `9443`.
-* Set the AS  `wso2server.sh` start-up script as the container start-up command.
+* Set the Application Server  `wso2server.sh` start-up script as the container start-up command.
 
 ### Usage
 
